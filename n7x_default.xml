@@ -103,8 +103,7 @@
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="du" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="du" />
   <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="du" />
-  <project path="packages/apps/DU-About" name="android_packages_apps_DU-About" remote="du" />
-  <project path="packages/apps/DU-Tweaks" name="android_packages_apps_DU-Tweaks" remote="du" />
+  <project path="packages/apps/DU-Tweaks" name="android_packages_apps_DU-Tweaks" remote="dukenzo" />
   <project path="packages/apps/DU-Updater" name="android_packages_apps_DU-Updater" remote="du" />
   <project path="packages/apps/Gallery2" name="ezio84/abc-n_packages_apps_Gallery2" remote="github" revision="n2"  />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="du" />
@@ -115,7 +114,7 @@
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="du" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="du" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="du" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="du" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="dukenzo" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="du" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="du" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="du" />
@@ -135,7 +134,7 @@
   <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" remote="du" revision="n7x-caf" />
 
   <!-- vendor -->
-  <project path="vendor/du" name="android_vendor_du" remote="du" />
+  <project path="vendor/du" name="android_vendor_du" remote="dukenzo" />
   <project path="vendor/scripts" name="DU-Scripts" remote="du" revision="n">
     <linkfile src="build-scripts/nathan-build-script.sh" dest="nathan-build-script.sh" />
     <linkfile src="caf-merge.sh" dest="caf-merge.sh" />
