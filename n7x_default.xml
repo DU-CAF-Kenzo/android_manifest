@@ -14,6 +14,10 @@
   <remote  name="dukenzo"
            revision="n7x"
            fetch="https://github.com/DU-CAF-Kenzo/" />
+  <!-- Bitbucket -->
+  <remote name = "bb"
+          revision = "master"
+          fetch = "https://bitbucket.org/" />
   <!-- DU REPOS -->
 
   <!-- general -->
@@ -43,8 +47,9 @@
   <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="du" revision="n7x-caf" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="du" revision="n7x-caf" />
   <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="du" revision="n7x-caf" />
+  <project path="external/libpng" name="AospExtended/platform_external_libpng" groups="pdk" remote="github" revision="7.x" />
   <project path="external/llvm" name="android_external_llvm" remote="du" />
-  <project path="external/skia" name="android_external_skia" remote="du" />
+  <project path="external/skia" name="android_external_skia" remote="dukenzo" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="du" revision="n7x-caf" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="du" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="du" revision="n7x-caf" />
@@ -67,9 +72,9 @@
   <project path="system/vold" name="android_system_vold" remote="du" revision="n7x-caf" />
 
   <!--frameworks-->
-  <project path="frameworks/av" name="android_frameworks_av" remote="du" revision="n7x-caf" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="dukenzo" revision="n7x-caf" />
   <project path="frameworks/base" name="android_frameworks_base" remote="dukenzo" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="du" revision="n7x-caf" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="dukenzo" revision="n7x-caf" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="du" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="du" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="du" />
@@ -142,4 +147,8 @@
     <linkfile src="update-themes.sh" dest="update-themes.sh" />
   </project>
 
+  <!-- Custom toolchains -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="uberroms/aarch64-linux-android-6.x" remote="bb" />
+  <project path="vendor/qcom/sdclang-3.8/linux-x86" name="AOSP-JF-MM/android_vendor_qcom_sdclang-3.8_linux-x86" remote="github" revision="aosp-7.1.2" />
+  
 </manifest>
