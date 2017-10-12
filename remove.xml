@@ -147,5 +147,7 @@
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tremolo" />
   <remove-project name="platform/frameworks/minikin" />
+  <remove-project name="platform/external/dnsmasq" />
+  <remove-project name="platform/external/libmpeg2" />
 
 </manifest>

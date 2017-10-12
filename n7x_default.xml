@@ -160,10 +160,6 @@
   <project path="external/sqlite" name="LineageOS/android_external_sqlite" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/tremolo" name="LineageOS/android_external_tremolo" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="frameworks/minikin" name="LineageOS/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1" />
-  
-  
-  
-  
-  
-  
+  <project path="external/dnsmasq" name="LineageOS/android_external_dnsmasq" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/libmpeg2" name="LineageOS/android_external_libmpeg2" groups="pdk" remote="github" revision="cm-14.1" />
 </manifest>
