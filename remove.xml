@@ -139,5 +139,13 @@
   <remove-project name="platform/prebuilts/misc" />
   <remove-project name="platform/prebuilts/ninja/darwin-x86" />
   <remove-project name="platform/prebuilts/ninja/linux-x86" />
+ 
+  <remove-project name="platform/external/libavc" />
+  <remove-project name="platform/external/libhevc" />
+  <remove-project name="platform/external/libvpx" />
+  <remove-project name="platform/external/sonivox" />
+  <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/tremolo" />
+  <remove-project name="platform/frameworks/minikin" />
 
 </manifest>
